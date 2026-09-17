@@ -19,8 +19,8 @@ var HEADERS = [
 var QUESTION_IDS = ["q1","q2","q3","q4","q5","q6","q7"];
 
 var CORRECT_ANSWERS = {
-  "q1": "",
-  "q3": ""
+  "q1": "b",   // ← la letra correcta de P1
+  "q3": "d" 
 };
 
 var CORRECT_MULTI = {
@@ -47,15 +47,15 @@ var CORRECT_PAIRS = {
   ],
   "q5": [
     [
-      "B̄ ∩ (C − A)",
+      "Bᶜ ∩ (C − A)",
       "{6, 8}"
     ],
     [
-      "(A ∩ B)̄ ∪ C",
+      "(A ∩ B)̄ᶜ∪ C",
       "{2, 3, 4, 5, 6, 7, 8, 9, 10}"
     ],
     [
-      "A ⊕ C",
+      "(A ⊕ C)̄ᶜ",
       "{3, 4, 5, 9}"
     ]
   ],
